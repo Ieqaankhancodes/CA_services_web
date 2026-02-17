@@ -62,13 +62,13 @@ function Footer() {
               +91 6366922778  |  +91 9036759426  |  +91 9113949910
             </p>
             <div className="mt-2">
-              <a href="#" className="text-white me-3">
+              <a href="https://www.facebook.com" className="text-white me-3" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-facebook"></i>
               </a>
               <a href="https://www.linkedin.com/in/ibsar-ahmed-garag/" className="text-white me-3">
                 <i className="bi bi-linkedin"></i>
               </a>
-              <a href="#" className="text-white">
+              <a href="https://www.instagram.com" className="text-white" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-instagram"></i>
               </a>
             </div>

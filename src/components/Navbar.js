@@ -62,9 +62,9 @@ function Navbar() {
               onMouseEnter={(e) => e.currentTarget.classList.add("show")}
               onMouseLeave={(e) => e.currentTarget.classList.remove("show")}
             >
-              <a
-                className="nav-link fw-medium dropdown-toggle"
-                href="#"
+              <button
+                className="nav-link fw-medium dropdown-toggle btn-link"
+                type="button"
                 id="servicesDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -72,7 +72,7 @@ function Navbar() {
                 style={{ color: primaryColor }}
               >
                 Services
-              </a>
+              </button>
               <div
                 className="dropdown-menu show-on-hover w-100 p-4 border-0 shadow-lg"
                 aria-labelledby="servicesDropdown"
